@@ -25,15 +25,15 @@
       rel="stylesheet"
     />
     <link
-      href="/src/input.css"
+      href="./src/input.css"
       rel="stylesheet"
     />
     <title>IEDC Bootcamp CEC</title>
   </head>
-  <body>
+  <body class="font-['Open_Sans']">
     <div
       id="anbg"
-      class="px-16 w-full font-['Open_Sans'] h-screen"
+      class="px-16 w-full h-screen"
     >
       <nav class="flex items-center py-8 justify-between tracking-wider">
         <div>
@@ -59,16 +59,18 @@
           <li class="text-sm mr-12">Events</li>
           <li class="text-sm mr-12">Team</li>
           <li class="text-sm mr-12">About</li>
-          <li class="text-sm text-white bg-black rounded-md px-6 py-2">
+          <li
+            class="text-sm text-white bg-black rounded-md px-6 py-2 transition hover:bg-transparent hover:text-black hover:ring-2 hover:ring-black cursor-pointer"
+          >
             JoinUs
           </li>
         </ul>
       </nav>
       <div class="my-36 tracking-wider">
-        <h1 class="text-7xl font-['Krona_One'] tracking-tighter mb-6 -ml-1">
+        <h1 class="text-5xl font-['Krona_One'] tracking-tighter mb-6 -ml-1">
           BE DISRUPTIVE!
         </h1>
-        <h3 class="text-2xl mb-6">
+        <h3 class="text-xl mb-6">
           Innovation And Entrepreneurship <br />
           Development Cell Bootcamp CEC
         </h3>
@@ -79,9 +81,9 @@
         </button>
       </div>
     </div>
-    <div class="px-16 w-full font-['Open_Sans']">
+    <div class="px-16 w-full">
       <div class="mb-16">
-        <div class="flex items-center mb-2">
+        <div class="flex items-center my-7">
           <div class="p-[6px] rounded-md bg-black mr-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -102,9 +104,9 @@
           <h2 class="text-2xl">New Blogs</h2>
         </div>
         <div class="flex flex-col">
-          <div class="flex bg-white justify-between pt-3">
+          <div class="flex bg-white justify-between mt-7">
             <div class="flex">
-              <div class="text-5xl text-gray-400 font-bold mr-4">01</div>
+              <div class="text-3xl text-gray-300 font-bold mr-4">01</div>
               <div class="mt-1">
                 <h6 class="text-[13px] mb-2">John Doe</h6>
                 <div class="mb-2">
@@ -120,7 +122,7 @@
               </div>
             </div>
             <div class="flex">
-              <div class="text-5xl text-gray-400 font-bold mr-4">01</div>
+              <div class="text-3xl text-gray-300 font-bold mr-4">01</div>
               <div class="mt-1">
                 <h6 class="text-[13px] mb-2">John Doe</h6>
                 <div class="mb-2">
@@ -136,7 +138,7 @@
               </div>
             </div>
             <div class="flex">
-              <div class="text-5xl text-gray-400 font-bold mr-4">01</div>
+              <div class="text-3xl text-gray-300 font-bold mr-4">01</div>
               <div class="mt-1">
                 <h6 class="text-[13px] mb-2">John Doe</h6>
                 <div class="mb-2">
@@ -152,9 +154,9 @@
               </div>
             </div>
           </div>
-          <div class="flex bg-white justify-between pt-3">
+          <div class="flex bg-white justify-between mt-7">
             <div class="flex">
-              <div class="text-5xl text-gray-400 font-bold mr-4">01</div>
+              <div class="text-3xl text-gray-300 font-bold mr-4">01</div>
               <div class="mt-1">
                 <h6 class="text-[13px] mb-2">John Doe</h6>
                 <div class="mb-2">
@@ -170,7 +172,7 @@
               </div>
             </div>
             <div class="flex">
-              <div class="text-5xl text-gray-400 font-bold mr-4">01</div>
+              <div class="text-3xl text-gray-300 font-bold mr-4">01</div>
               <div class="mt-1">
                 <h6 class="text-[13px] mb-2">John Doe</h6>
                 <div class="mb-2">
@@ -186,7 +188,7 @@
               </div>
             </div>
             <div class="flex">
-              <div class="text-5xl text-gray-400 font-bold mr-4">01</div>
+              <div class="text-3xl text-gray-300 font-bold mr-4">01</div>
               <div class="mt-1">
                 <h6 class="text-[13px] mb-2">John Doe</h6>
                 <div class="mb-2">
@@ -210,8 +212,8 @@
       type="module"
       src="/main.js"
     ></script>
-    <script src="three.r134.min.js"></script>
-    <script src="vanta.globe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
     <script>
       VANTA.GLOBE({
         el: '#anbg',
